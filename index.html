@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="jpeg" href="./images/social book-logos.jpeg">
+    <title>SocialBook-An Amazing Site to interacte with people</title>
+</head>
+<body>
+
+    <!-- Navbar  -->
+
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="./images/logo.png" alt="logo" class="logo">
+            </a>
+            <ul>
+                <li><img src="./images/notification.png" alt="notification-image"></li>
+                <li><img src="./images/inbox.png" alt="inbox-image"></li>
+                <li><img src="./images/video.png" alt="video-image"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="./images/search.png" alt="search-image">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="profile-icon online" id="menuitems" onclick="miniprofilemenu()">
+                <img src="./images/profile-pic.png" alt="profile-pic">
+            </div>
+        </div>
+
+        <!-- mini profile box  -->
+
+        <div class="mini-profile-box" id="profilebox">
+            <div class="switch-mode">
+                <span><img src="./images/sunny.png" id="theme" onclick="themechanger()" alt="sunny-images"></span>
+            </div>
+            <div class="user-profile">
+                <div class="prof-image">
+                    <img src="./images/profile-pic.png" class="mini-image"  alt="John-image">
+                </div>
+                <div class="profile-desc">
+                    <h4>John Nicholson</h4>
+                    <a href="profile.html" style="color:#1876f2;font-size: 14px;">See your profile</a>
+                </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+                <div class="prof-image">
+                    <img src="./images/feedback.png"  alt="feedback-image">
+                </div>
+                <div class="profile-desc">
+                    <h4>Give Feedback</h4>
+                    <small>Help us to improve the new design</small>
+                </div>
+            </div>
+            <hr>
+            <a href="#"><img src="./images/setting.png" alt="setting-image">Settings & Privacy</a><span><img src="./images/arrow.png" alt="arrow-image"></span>
+            <a href="#"><img src="./images/help.png" alt="help-image">Help & Support</a><span><img src="./images/arrow.png" alt="arrow-image"></span>
+            <a href="#"><img src="./images/display.png" alt="display-image">Display & Accessibility</a><span><img src="./images/arrow.png" alt="arrow-image"></span>
+            <a href="#"><img src="./images/logout.png" alt="logout-image">Logout</a><span><img src="./images/arrow.png" alt="arrow-image"></span>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+
+       <div class="container">
+
+        <!-- Left sidebar  -->
+        <div class="left-sidebar">
+            <div class="important-links">
+                <a href="#"><img src="./images/news.png" alt="news-image">Latest News</a>
+                <a href="#"><img src="./images/friends.png" alt="friends-image">Friends</a>
+                <a href="#"><img src="./images/group.png" alt="group-image">Group</a>
+                <a href="#"><img src="./images/marketplace.png" alt="marketplace-image">Marketplace</a>
+                <a href="#"><img src="./images/watch.png" alt="watch-image">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="./images/shortcut-1.png" alt="shortcut-1-image">Web Developers</a>
+                <a href="#"><img src="./images/shortcut-2.png" alt="shortcut-2-image">Web design course</a>
+                <a href="#"><img src="./images/shortcut-3.png" alt="shortcut-3-image">Full Stack Development</a>
+                <a href="#"><img src="./images/shortcut-4.png" alt="shortcut-4-image">Website Experts</a>
+            </div>
+        </div>
+
+        <!-- Main content  -->
+
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="./images/upload.png"class="uploadicon" alt="upload-image">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="./images/member-1.png" alt="member1-image">
+                    <p>Alison</p>
+                </div>
+                <div class="story story3">
+                    <img src="./images/member-2.png" alt="member2-image">
+                    <p>Jackson</p>
+                </div>
+                <div class="story story4">
+                    <img src="./images/member-3.png" alt="member3-image">
+                    <p>Samona</p>
+                </div>
+                <div class="story story5">
+                    <img src="./images/member-4.png" alt="member4-image">
+                    <p>John Doe</p>
+                </div>
+            </div>
+            <div class="postcontainersection">
+            <div class="write-post">
+                <div class="user-profile">
+                    <div class="prof-image">
+                        <img src="./images/profile-pic.png"  alt="John-image">
+                    </div>
+                    <div class="profile-desc">
+                        <h4>John Nicholson</h4>
+                        <small>Public</small>
+                        <img src="./images/arrow-down.png"alt="down-arrow-image">
+                    </div>
+                </div>
+            </div>
+            <div class="input-description">
+                <textarea name="description" id="description"  rows="4" placeholder="Whats on your mind, John?"></textarea>
+            </div>
+            <div class="upload-section">
+                <a href="#"><img src="./images/live-video.png" alt="video-image">Live Video</a>
+                <a href="#"><img src="./images/photo.png" alt="photo/video-image">Photo/Video</a>
+                <a href="#"><img src="./images/feeling.png" alt="feeling/activity-image">Feeling/Activity</a>
+            </div>
+            </div>
+            <div class="post-container">
+                <div class="postcontainersection">
+                <div class="post-part">
+                <div class="user-profile">
+                    <div class="prof-image">
+                        <img src="./images/profile-pic.png"  alt="John-image">
+                    </div>
+                    <div class="profile-desc">
+                        <h4>John Nicholson</h4>
+                        <span>March 13 2023 14:20 PM</span>
+                    </div>
+                </div>
+                <div class="side-dot">
+                    <img src="./images/threedots.png" alt="dots-image">
+                </div>
+            </div>
+                <p class="postcontent">Subscribe @Manash Swain You Tube channel to watch more videos on website Development,Android Development and UI Designs <span>#ManashSwain #YouTubeChannel</span></p>
+                <div class="feed-image">
+                 <img src="./images/feed-image-1.png" alt="feed-image">
+                </div>
+                <div class="activity-icons">
+                    <div class="left-icons">
+                        <a href="#"><img src="./images/like.png" alt="like-image">188</a>
+                        <a href="#"><img src="./images/comments.png" alt="comment-image">64</a>
+                        <a href="#"><img src="./images/share.png" alt="share-image">31</a>
+                    </div>
+                    <div class="right-icons">
+                        <img src="./images/profile-pic.png"  class="main-profile-image"alt="John-image">
+                        <img src="./images/arrow-down.png" class="downarrow-image"alt="down-arrow-image">
+                    </div>
+                </div>
+            </div>
+            <div class="postcontainersection">
+                <div class="post-part">
+                <div class="user-profile">
+                    <div class="prof-image">
+                        <img src="./images/member-1.png"  alt="John-image">
+                    </div>
+                    <div class="profile-desc">
+                        <h4>Alison Mina</h4>
+                        <span>March 01 2023 11:20 AM</span>
+                    </div>
+                </div>
+                <div class="side-dot">
+                    <img src="./images/threedots.png" alt="dots-image">
+                </div>
+            </div>
+                <p class="postcontent">The ocean makes me feel really small and it makes me put my whole life into perspective.<span>#Beach #Party</span></p>
+                <div class="feed-image">
+                 <img src="./images/feed-image-2.png" alt="feed-image-2">
+                </div>
+                <div class="activity-icons">
+                    <div class="left-icons">
+                        <a href="#"><img src="./images/like.png" alt="like-image">134</a>
+                        <a href="#"><img src="./images/comments.png" alt="comment-image">23</a>
+                        <a href="#"><img src="./images/share.png" alt="share-image">11</a>
+                    </div>
+                    <div class="right-icons">
+                        <img src="./images/profile-pic.png"  class="main-profile-image"alt="John-image">
+                        <img src="./images/arrow-down.png" class="downarrow-image"alt="down-arrow-image">
+                    </div>
+                </div>
+            </div>
+            <div class="postcontainersection">
+                <div class="post-part">
+                <div class="user-profile">
+                    <div class="prof-image">
+                        <img src="./images/member-3.png"  alt="member3-image">
+                    </div>
+                    <div class="profile-desc">
+                        <h4>Samona Rose</h4>
+                        <span>February 10 2023 02:00 AM</span>
+                    </div>
+                </div>
+                <div class="side-dot">
+                    <img src="./images/threedots.png" alt="dots-image">
+                </div>
+            </div>
+                <p class="postcontent">London is an important cultural and historical centre in the UK <span>#London #UK</span></p>
+                <div class="feed-image">
+                 <img src="./images/feed-image-3.png" alt="feed-image">
+                </div>
+                <div class="activity-icons">
+                    <div class="left-icons">
+                        <a href="#"><img src="./images/like.png" alt="like-image">194</a>
+                        <a href="#"><img src="./images/comments.png" alt="comment-image">42</a>
+                        <a href="#"><img src="./images/share.png" alt="share-image">71</a>
+                    </div>
+                    <div class="right-icons">
+                        <img src="./images/profile-pic.png"  class="main-profile-image"alt="John-image">
+                        <img src="./images/arrow-down.png" class="downarrow-image"alt="down-arrow-image">
+                    </div>
+                </div>
+            </div>
+            <div class="postcontainersection">
+                <div class="post-part">
+                <div class="user-profile">
+                    <div class="prof-image">
+                        <img src="./images/member-1.png"  alt="member1-image">
+                    </div>
+                    <div class="profile-desc">
+                        <h4>Alison Mina</h4>
+                        <span>February 05 2023 11:20 AM</span>
+                    </div>
+                </div>
+                <div class="side-dot">
+                    <img src="./images/threedots.png" alt="dots-image">
+                </div>
+            </div>
+                <p class="postcontent">The Joy of working from home is the best.<span>#Working from home #wfh</span></p>
+                <div class="feed-image">
+                 <img src="./images/feed-image-4.png" alt="feed-image">
+                </div>
+                <div class="activity-icons">
+                    <div class="left-icons">
+                        <a href="#"><img src="./images/like-blue.png" alt="like-image">180</a>
+                        <a href="#"><img src="./images/comments.png" alt="comment-image">60</a>
+                        <a href="#"><img src="./images/share.png" alt="share-image">30</a>
+                    </div>
+                    <div class="right-icons">
+                        <img src="./images/profile-pic.png"  class="main-profile-image"alt="John-image">
+                        <img src="./images/arrow-down.png" class="downarrow-image"alt="down-arrow-image">
+                    </div>
+                </div>
+            </div>
+            <div class="postcontainersection">
+                <div class="post-part">
+                <div class="user-profile">
+                    <div class="prof-image">
+                        <img src="./images/profile-pic.png"  alt="John-image">
+                    </div>
+                    <div class="profile-desc">
+                        <h4>Jackson Aston</h4>
+                        <span>January 27 2023 06:20 AM</span>
+                    </div>
+                </div>
+                <div class="side-dot">
+                    <img src="./images/threedots.png" alt="dots-image">
+                </div>
+            </div>
+                <p class="postcontent">It feels great when you are with your office colleagues <span>#office #Work</span></p>
+                <div class="feed-image">
+                 <img src="./images/feed-image-5.png" alt="feed-image">
+                </div>
+                <div class="activity-icons">
+                    <div class="left-icons">
+                        <a href="#"><img src="./images/like.png" alt="like-image">120</a>
+                        <a href="#"><img src="./images/comments.png" alt="comment-image">90</a>
+                        <a href="#"><img src="./images/share.png" alt="share-image">37</a>
+                    </div>
+                    <div class="right-icons">
+                        <img src="./images/profile-pic.png"  class="main-profile-image"alt="John-image">
+                        <img src="./images/arrow-down.png" class="downarrow-image"alt="down-arrow-image">
+                    </div>
+                </div>
+            </div> 
+        </div>
+            <button  type="button" class="load-more-btn">Load More</button>
+        </div>
+    
+
+        <!-- Right side bar  -->
+
+        <div class="right-sidebar">
+            <div class="sidebar-events">
+                <h4>Events</h4>
+                <a href="#">see all</a>
+            </div>
+            <div class="events">
+                <div class="event-info">
+                    <h4>08</h4>
+                    <span>February</span>
+                </div>
+                <div class="event-description">
+                    <h4>Social Media</h4>
+                    <p><img src="./images/location.png" alt="">Wilson Tech Park</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="events">
+                <div class="event-info">
+                    <h4>18</h4>
+                    <span>October</span>
+                </div>
+                <div class="event-description">
+                    <h4>Mobile Marketing</h4>
+                    <p><img src="./images/location.png" alt="">Wilson Tech Park</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="advertisement-area">
+                <h4>Advertisement</h4>
+                <a href="#">close</a>
+            </div>
+            <div class="advertisement-image">
+                <img src="./images/advertisement.png" alt="advertisement-image">
+            </div>
+            <div class="Conversation-part">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/member-1.png" alt="member1-image"> 
+                </div>
+                <p>Alison Mina</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/member-2.png" alt="member2-image"> 
+                </div>
+                <p>Jackson Aston</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/member-3.png" alt="member3-image"> 
+                </div>
+                <p>Samona Rose</p>
+            </div>
+        </div>
+       </div>
+       <footer>
+        copyright 2023 - Manash Swain 
+       </footer>
+
+ <script src="script.js"></script>   
+</body>
+</html>
