@@ -360,27 +360,27 @@ nav {
 }
 
 .story1 {
-    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),url(./images/status-1.png);
+    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),url(/images/status-1.png);
     cursor: pointer;
 }
 
 .story2 {
-    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),url(./images/status-2.png);
+    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),url(/images/status-2.png);
     cursor: pointer;
 }
 
 .story3 {
-    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),url(./images/status-3.png);
+    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),url(/images/status-3.png);
     cursor: pointer;
 }
 
 .story4 {
-    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),url(./images/status-4.png);
+    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),url(/images/status-4.png);
     cursor: pointer;
 }
 
 .story5 {
-    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),url(./images/status-5.png);
+    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),url(/images/status-5.png);
     cursor: pointer;
 }
 
