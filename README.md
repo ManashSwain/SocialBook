@@ -14,12 +14,10 @@ Social Book is a social media platform that aims to provide users with a familia
 To get started with Social Book, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/manashswain/SocialBook.git`
-2. Navigate to the project directory: `cd social-book`
 
 
 
 ## Usage
 
-1. Start the application: `npm start` or `yarn start`
-2. Access the application in your web browser at https://github.com/manashswain/SocialBook.git
+1. Access the application in your web browser at https://manashswain.github.io/SocialBook/
 
